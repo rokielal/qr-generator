@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  display: flex;
+  /* row-wise center */
+  justify-content: center;
+  /* Column-wise: center */
+  align-items: center;
+  height: 100vh;
+}
+
+.qr-container {
+  /* border: 1px solid black; */
+  padding: 10px;
+  width: 500px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#qr-input {
+  /* display: block; it make the input field block means now it will take the full width and button will come below it */
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#qr-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: green;
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#qr-img {
+  /* By making the item display:block and margin:auto the qr-code will be at the center */
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
